@@ -1,0 +1,12 @@
+{
+  "name": "twitch-m3u8-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Kwabang/twitch-m3u8-module.git",
+  "author": "Gyeongtaek Kim <kwabang2827@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "got": "v12"
+  }
+}
