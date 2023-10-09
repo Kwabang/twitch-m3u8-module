@@ -13,7 +13,7 @@ npm install twitch-m3u8-module
 ```javascript
 import getM3u8 from "twitch-m3u8-module";
 
-const m3u8 = await getM3u8("twitch"))
+const m3u8 = await getM3u8("twitch")
 
 console.log(m3u8)
 //=> ["http://video-weaver.....m3u8", "http://video-weaver.....m3u8", "http://video-weaver.....m3u8"]
@@ -28,7 +28,7 @@ console.log(m3u8)
 ```javascript
 import getM3u8 from "twitch-m3u8-module";
 
-const m3u8 = await getM3u8("twitch","1b31jzoa3bjlasd546d6ksrsall8g"))
+const m3u8 = await getM3u8("twitch","1b31jzoa3bjlasd546d6ksrsall8g")
 
 console.log(m3u8)
 //=> ["http://video-weaver.....m3u8", "http://video-weaver.....m3u8", "http://video-weaver.....m3u8"]
